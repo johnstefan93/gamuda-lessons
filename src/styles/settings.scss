@@ -1,0 +1,17 @@
+$primary: #1B1A55;
+$secondary: #535C91;
+$accent: #9290C3;
+$error: #F44336;
+$info: #2196F3;
+$success: #4CAF50;
+$warning: #FFC107;
+
+.v-application__wrap{
+    min-height: 100% !important;
+    flex: unset !important;
+}
+   
+.v-list-item__overlay,
+.v-list-item__underlay {
+  display: none;
+}

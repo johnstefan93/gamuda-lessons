@@ -1,0 +1,45 @@
+@import "./settings.scss";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+.button {
+  background-color: $secondary;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darken($secondary, 10%);
+}
+
+.active {
+  color: #ed2e24; 
+}
+
+.v-list-item:hover .active {
+  color: #2196f3; 
+}
+
+.v-list-item:hover {
+  background-color: lightgray;
+  color: #2196f3; 
+}
