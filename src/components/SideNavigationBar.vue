@@ -44,7 +44,17 @@ const items = [
     title: "Directives",
     icon: "mdi-checkbox-blank-circle-outline",
     to: "/directives",
-  }
+  },
+   {
+    title: 'Computed Syntax',
+    icon: 'mdi-checkbox-blank-circle-outline',
+    to: '/computedsyntax',
+  },
+  {
+    title: 'Class Styles Binding',
+    icon: 'mdi-checkbox-blank-circle-outline',
+    to: '/classstylebinding',
+  },
 ];
 
 const isActive = computed(() => (path: string) => route.path === path);
