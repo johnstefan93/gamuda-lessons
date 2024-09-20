@@ -55,6 +55,11 @@ const items = [
     icon: 'mdi-checkbox-blank-circle-outline',
     to: '/classstylebinding',
   },
+  {
+    title: 'Components',
+    icon: 'mdi-checkbox-blank-circle-outline',
+    to: '/components',
+  },
 ];
 
 const isActive = computed(() => (path: string) => route.path === path);
