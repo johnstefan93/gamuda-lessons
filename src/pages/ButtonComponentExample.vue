@@ -13,13 +13,7 @@
       </p>
     </div>
 
-    <MyButton
-      color="white"
-      backgroundColor="blue"
-      border="1px solid red"
-      label="Click me"
-      @click="showMessage"
-    />
+    <MyButton v-bind="buttonProps" @click="showMessage" />
   </div>
 </template>
 
@@ -32,6 +26,12 @@ export default {
     return {
       inputValue: '',
       showCustomMessage: false,
+      buttonProps: {
+        color: 'white',
+        backgroundColor: 'blue',
+        border: '1px solid red',
+        label: 'Click me',
+      },
     };
   },
   methods: {

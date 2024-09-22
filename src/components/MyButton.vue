@@ -1,14 +1,5 @@
 <template>
-  <button
-    :style="{
-      color: color,
-      backgroundColor: backgroundColor,
-      padding: padding,
-      border: border,
-      borderRadius: borderRadius,
-    }"
-    @click="handleClick"
-  >
+  <button :style="buttonStyles" @click="handleClick">
     {{ label }}
   </button>
 </template>
@@ -40,6 +31,17 @@ export default {
     borderRadius: {
       type: String,
       default: '5px',
+    },
+  },
+  computed: {
+    buttonStyles() {
+      return {
+        color: this.color,
+        backgroundColor: this.backgroundColor,
+        padding: this.padding,
+        border: this.border,
+        borderRadius: this.borderRadius,
+      };
     },
   },
   methods: {
