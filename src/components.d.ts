@@ -8,13 +8,23 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ButtonComponent: typeof import('./components/ButtonComponent.vue')['default']
+    Carousel: typeof import('./components/Carousel.vue')['default']
     Counter: typeof import('./components/Counter.vue')['default']
+    DomManipulation: typeof import('./components/DomManipulation.vue')['default']
+    ExerciseThreeComponent: typeof import('./components/ExerciseThreeComponent.vue')['default']
     FooterComponent: typeof import('./components/FooterComponent.vue')['default']
     HeaderComponent: typeof import('./components/HeaderComponent.vue')['default']
+    Linear: typeof import('./components/Linear.vue')['default']
     MyButton: typeof import('./components/MyButton.vue')['default']
     MyInput: typeof import('./components/MyInput.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SideNavigationBar: typeof import('./components/SideNavigationBar.vue')['default']
+    Tab1: typeof import('./components/Tab1.vue')['default']
+    Tab2: typeof import('./components/Tab2.vue')['default']
+    TabOne: typeof import('./components/TabOne.vue')['default']
+    TabTimer: typeof import('./components/TabTimer.vue')['default']
+    TabTwo: typeof import('./components/TabTwo.vue')['default']
+    UnmountedComponent: typeof import('./components/UnmountedComponent.vue')['default']
   }
 }

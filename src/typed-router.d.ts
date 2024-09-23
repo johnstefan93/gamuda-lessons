@@ -19,11 +19,18 @@ declare module 'vue-router/auto-routes' {
    */
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
+    '/ActivatedLifeHook': RouteRecordInfo<'/ActivatedLifeHook', '/ActivatedLifeHook', Record<never, never>, Record<never, never>>,
     '/ButtonComponentExample': RouteRecordInfo<'/ButtonComponentExample', '/ButtonComponentExample', Record<never, never>, Record<never, never>>,
     '/ClassStyleBinding': RouteRecordInfo<'/ClassStyleBinding', '/ClassStyleBinding', Record<never, never>, Record<never, never>>,
     '/ComponentVModel': RouteRecordInfo<'/ComponentVModel', '/ComponentVModel', Record<never, never>, Record<never, never>>,
     '/Directives': RouteRecordInfo<'/Directives', '/Directives', Record<never, never>, Record<never, never>>,
     '/Interpolation': RouteRecordInfo<'/Interpolation', '/Interpolation', Record<never, never>, Record<never, never>>,
+    '/LifecycleHooks': RouteRecordInfo<'/LifecycleHooks', '/LifecycleHooks', Record<never, never>, Record<never, never>>,
+    '/TabbedTimer': RouteRecordInfo<'/TabbedTimer', '/TabbedTimer', Record<never, never>, Record<never, never>>,
+    '/UnmountedComponent': RouteRecordInfo<'/UnmountedComponent', '/UnmountedComponent', Record<never, never>, Record<never, never>>,
+    '/WeekFour/DayTwo/ExerciseOne': RouteRecordInfo<'/WeekFour/DayTwo/ExerciseOne', '/WeekFour/DayTwo/ExerciseOne', Record<never, never>, Record<never, never>>,
+    '/WeekFour/DayTwo/ExerciseThree': RouteRecordInfo<'/WeekFour/DayTwo/ExerciseThree', '/WeekFour/DayTwo/ExerciseThree', Record<never, never>, Record<never, never>>,
+    '/WeekFour/DayTwo/ExerciseTwo': RouteRecordInfo<'/WeekFour/DayTwo/ExerciseTwo', '/WeekFour/DayTwo/ExerciseTwo', Record<never, never>, Record<never, never>>,
     '/WeekThree/DayOne/ExerciseOne': RouteRecordInfo<'/WeekThree/DayOne/ExerciseOne', '/WeekThree/DayOne/ExerciseOne', Record<never, never>, Record<never, never>>,
     '/WeekThree/DayOne/ExerciseThree': RouteRecordInfo<'/WeekThree/DayOne/ExerciseThree', '/WeekThree/DayOne/ExerciseThree', Record<never, never>, Record<never, never>>,
     '/WeekThree/DayOne/ExerciseTwo': RouteRecordInfo<'/WeekThree/DayOne/ExerciseTwo', '/WeekThree/DayOne/ExerciseTwo', Record<never, never>, Record<never, never>>,
