@@ -1,5 +1,5 @@
 <template>
-  <v-tabs v-model="activeTab">
+  <v-tabs v-model="activeTab" height="150">
     <v-tab value="tab1">Tab 1</v-tab>
     <v-tab value="tab2">Tab 2</v-tab>
 

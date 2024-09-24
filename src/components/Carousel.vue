@@ -23,6 +23,7 @@ export default {
         { src: 'https://picsum.photos/id/1019/1000/400' },
       ],
       currentSlide: 0,
+      carouselInterval: null,
     };
   },
   beforeMount() {
@@ -33,7 +34,7 @@ export default {
     console.log('mounted hook executed');
     console.log('Carousel element in mounted:', this.$refs.myCarousel);
 
-    setTimeout(() => {
+   this.carouselInterval = setInterval(() => {
       this.currentSlide = (this.currentSlide + 1) % this.items.length;
     }, 2000);
   },
