@@ -1,12 +1,7 @@
 <template>
-    <MyInput
-      color="green"
-      @input="handleInput"
-      prependContent="mdi-checkbox-blank-circle"
-      appendContent="mdi-checkbox-blank-circle-outline"
-    />
-    <p>{{ inputValue }}</p>
-    <RouterLink to="/directives"><v-btn>Directives</v-btn></RouterLink>
+    <RouterLink to="/home"><v-btn>Home</v-btn></RouterLink>
+    <RouterLink to="/about/me"><v-btn>About</v-btn></RouterLink>
+    <RouterLink to="/CoNtAcT"><v-btn>Contact</v-btn></RouterLink>
 </template>
 
 <script>

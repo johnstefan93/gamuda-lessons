@@ -1,4 +1,4 @@
-const useArrayLengthChecker = (dataArray) => {
+const useArrayLengthChecker = (dataArray: any) => {
   const arrayLength = ref(0);
   const showAlert = ref(false);
 

@@ -1,4 +1,4 @@
-const useCounter = (initialValue) => { 
+const useCounter = (initialValue: any) => { 
   const count = initialValue; 
 
   const increment = () => {

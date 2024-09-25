@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import useArrayLengthChecker from '@/composables/useArrayLengthChecker';
+import useArrayLengthChecker from '@/composables/useArrayLengthChecker.ts';
 
 export default {
   setup() {
